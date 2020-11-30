@@ -154,12 +154,13 @@ footer {
         margin: auto;
     }
     .form{
+        width: 800px;
         &__surname{
-            width: 46.5%;
+            width: 46%;
             margin-bottom: 0%;
         }
         &__lastname{
-            width: 46.5%;
+            width: 46%;
         }
         &__text{
             width: 96%
@@ -170,4 +171,5 @@ footer {
         top: 0px;
         right: 30%;
     }
+
 }

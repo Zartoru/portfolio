@@ -110,13 +110,15 @@ footer {
   .abt_me {
     width: 900px;
     margin: auto; }
-  .form__surname {
-    width: 46.5%;
-    margin-bottom: 0%; }
-  .form__lastname {
-    width: 46.5%; }
-  .form__text {
-    width: 96%; }
+  .form {
+    width: 800px; }
+    .form__surname {
+      width: 46%;
+      margin-bottom: 0%; }
+    .form__lastname {
+      width: 46%; }
+    .form__text {
+      width: 96%; }
   .logomobile {
     position: relative;
     top: 0px;
