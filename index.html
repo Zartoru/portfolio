@@ -38,13 +38,14 @@
     </main>
         <section class="form">
             <h3>Contact</h3>
-            <form method="POST">
+            <form method="POST" netlify>
                 <div class="form__name">
-                    <input type="text" class="form__surname">
-                    <input type="text" class="form__lastame">
+                    <input type="text" class="form__surname" name="surname" placeholder="Surname">
+                    <input type="text" class="form__lastname" name="lastname" placeholder="Lastname">
                 </div>
-                <input type="text" class="form__mail">
-                <textarea name="" id="" cols="30" rows="10" class="form__text"></textarea>
+                <input type="text" class="form__mail" name="e-mail" placeholder="E-mail">
+                <textarea name="your message" id="" cols="30" rows="10" class="form__text" placeholder="Your message"></textarea>
+                <button type="submit" class="form__button">Submit</button>
             </form>
         </section>
     <footer>

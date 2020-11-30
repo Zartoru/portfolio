@@ -93,9 +93,81 @@ p {
         border-radius: 5px;
         margin: auto;
     }
+    &__button{
+        background-color: #6b3694;
+        border: #6b3694;
+        padding: 10px;
+        margin: 20px;
+        text-transform: capitalize;
+        font-family: 'Press Start 2P', cursive;
+        color: #c4c4c4;
+        border-radius: 5px;
+    }
 }
 
 footer {
     color: #c4c4c4;
     text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+    .logomobile{
+        position: relative;
+        top: 0px;
+        right: 25%;
+    }
+    .form{
+        &__surname{
+            width: 46%;
+            margin-bottom: 0%;
+        }
+        &__lastname{
+            width: 46%;
+        }
+        &__text{
+            width: 97%
+        }
+    }
+
+    .my_projects {
+        &__projects {
+            &__img {
+                width: 25%;
+                border-radius: 5%;
+            }
+        }
+    }
+
+    .my_skills {
+        &__skill {
+            &__img {
+                width: 12.5%;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:950px){
+    .abt_me{
+        width: 900px;
+        margin: auto;
+    }
+    .form{
+        &__surname{
+            width: 46.5%;
+            margin-bottom: 0%;
+        }
+        &__lastname{
+            width: 46.5%;
+        }
+        &__text{
+            width: 96%
+        }
+    }
+    .logomobile{
+        position: relative;
+        top: 0px;
+        right: 30%;
+    }
 }
