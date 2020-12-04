@@ -10,18 +10,18 @@
     <title>Claude Bassez - Portfolio</title>
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav class="nb navbar navbar-expand-lg navbar-light bg-custom">
-            <a class="navbar-brand" href="#"></a>
+            <a class="navbar-brand" href="#home">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">My Projects</a>
-                <a class="nav-item nav-link" href="#">Skills</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link active" href="#abt_me">About Me <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="#proj">My Projects</a>
+                <a class="nav-item nav-link active" href="#skills">Skills</a>
+                <a class="nav-item nav-link active" href="#contact">Contact</a>
               </div>
             </div>
           </nav>
@@ -30,16 +30,16 @@
         <h2>Junior Web Developper</h2>
     </header>
     <main>
-        <section class="abt_me">
+        <section class="abt_me" id="abt_me">
             <h3>about me</h3>
             <p>Hello! I am Claude, and this is my portfolio, it's kinda weird, I'm not really used to talk about me... But here I go. So I am 23 years old, and I have always liked computer science so I decided to make it my job (and i like art. Even though i am not really good at it, I still enjoy my art so it's the only thing that matters!). I'm also an idealistic and determined guy, and I will do anything I can to make the world a better place. And in order to do that, all my websites will be mobile first and respectful of the environment as much as I can. It may not seem like much, but if everyone does the same we can make a change!</p>
         </section>
-        <section class="my_projects">
+        <section class="my_projects" id="proj">
             <h3>my projects</h3>
             <div class="my_projects__projects"><a href="https://zartoru-showtrack.netlify.app/"><img src="showtrack.PNG" alt="" class="my_projects__projects__img"></a></div>
             <div class="my_projects__projects"></div>
         </section>
-        <section class="my_skills">
+        <section class="my_skills" id="skills">
             <h3>my skills</h3>
             <div class="my_skills__skill">
                 <div class="my_skills__line1">
@@ -53,7 +53,7 @@
             </div>
         </section>
     </main>
-        <section class="form">
+        <section class="form" id="contact">
             <h3>Contact</h3>
             <form method="POST" netlify>
                 <div class="form__name">
