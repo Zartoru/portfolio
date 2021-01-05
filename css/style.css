@@ -124,10 +124,13 @@ footer {
   .form {
     width: 800px; }
     .form__surname {
-      width: 47%;
+      width: 48%;
       margin-bottom: 0%; }
     .form__lastname {
-      width: 47%; }
+      width: 48%; }
+      .form__mail{
+        width: 96%;
+      }
     .form__text {
       width: 96%; }
   .logomobile {
